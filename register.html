@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="C:\xampp\htdocs\Project\bootstrap-4\bootstrap-4\css\bootstrap.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css\style.css" />
+    <script type="text/javascript">
+        function find()
+        {    
+        
+            var a=document.getElementById('reno').value;
+            if( a=="")
+            {
+                alert("Registration number can't be empty");
+            }
+
+        
+            var db=document.getElementById('uname').value
+            if(db=="")
+            {
+                alert("Username can't be empty");
+            }
+
+
+            var ds=document.getElementById('vtype').value
+            if(ds=="")
+            {
+                alert("Vehicle type can't be empty");
+            }
+
+            var df=document.getElementById('idepo').value
+            if(df=="")
+            {
+                alert("Initial deposit can't be empty");
+            }
+
+            var ty=document.getElementById('email').value
+            if(ty=="")
+            {
+                alert("Email can't be empty");
+            }
+            
+            var tu=document.getElementById('pno').value
+            if(tu=="")
+            {
+                alert("Phone number can't be empty");
+            }
+
+
+            if( a !="")
+            {
+                if( db !="")
+                {
+                    if( ds !="")
+                    {
+                        if( df !="")
+                        {   
+                            if( ty !="")
+                            {
+                                if( tu !="")
+                                {
+                                    alert("Succesfully registered your name....") 
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    </script>
+</head>
+<body>
+        <header>
+                <div class="container" >
+                  <div id="branding" >
+                     <h2 style="margin-bottom:10px;" ><span class="highlight">Automated Toll </span>Management System</h2>
+                   </div>
+                   <nav>
+                     <ul>
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="about.html">About</a></li>
+                       <li class="current"><a href="register.html">Register</a></li>
+                       <li><a href="recharge.html">Recharge</a></li>
+                     </ul>
+                   </nav>
+                </div>
+        </header>
+                        
+    <table class=" card_1 table table-hover table-striped"><form method="post" onsubmit=" return find()" action="insert.php">
+        <tr>
+            <td>Registration No:</td>
+            <td><input id="reno" type="text" name="regno" placeholder="Enter your registration number..." /></td>
+        </tr>
+        <tr>
+             <td>Username:</td>
+            <td><input id="uname" type="text" name="name" placeholder="Enter your name.." /></td>
+        </tr>
+        
+        <tr>
+                <td>Vehicle Type:</td>
+                <td><select id="vtype" name="vtype">
+                    <option name="car">Car</option>
+                    <option name="truck">Truck</option>
+                    <option name="multiaxile">Multi-Axile</option>
+                </select></td>
+        </tr>
+
+        <tr>
+            <td>Email:</td>
+            <td><input id="email" type="email" name="email" placeholder="Enter your email..." /></td>
+        </tr>
+        <tr>
+            <td>Phone Number:</td>
+            <td><input id="pno" type="number" size="20" name="phnum" placeholder="Enter your number..." /></td>
+        </tr>
+
+
+        <tr>
+            <td>Initial Deposit:</td>
+            <td><input id="idepo" type="number" name="deposit" placeholder="Enter your initial deposit..." /></td>
+        </tr>        
+        
+        <tr>
+            <td><input class="button_1" type="submit" value="Submit" /></td></form>
+        </tr>
+    </table>
+
+    
+
+    <footer>
+            <p>Toll Management Copyright &copy; 2018</p>
+    </footer>
+</body>
+</html>

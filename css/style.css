@@ -1,0 +1,377 @@
+body{
+      font-family: Arial,Helvetica,sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      padding: 0;
+      margin: 0;
+      background-color:f4f4f4;}
+      
+.container{
+    width:80%;
+    margin: auto;
+    overflow: hidden;}
+   ul{
+      margin: 0;
+      padding: 0;
+    }
+  .button_1{
+      height: 37px;
+      background: #e8491d;
+      border:0;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .dark{
+      padding: 15px;
+      background: #35424a;
+      color: #ffffff;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .table {
+      width: 60%;
+      max-width: auto;
+      margin-bottom: 1rem;
+      background-color: transparent;
+    }
+
+
+    .table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.table .table {
+  background-color: #fff;
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 0.3rem;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 2px;
+}
+
+.table-borderless th,
+.table-borderless td,
+.table-borderless thead th,
+.table-borderless tbody + tbody {
+  border: 0;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-primary,
+.table-primary > th,
+.table-primary > td {
+  background-color: #b8daff;
+}
+
+.table-hover .table-primary:hover {
+  background-color: #9fcdff;
+}
+
+.table-hover .table-primary:hover > td,
+.table-hover .table-primary:hover > th {
+  background-color: #9fcdff;
+}
+
+.table-secondary,
+.table-secondary > th,
+.table-secondary > td {
+  background-color: #d6d8db;
+}
+
+.table-hover .table-secondary:hover {
+  background-color: #c8cbcf;
+}
+
+.table-hover .table-secondary:hover > td,
+.table-hover .table-secondary:hover > th {
+  background-color: #c8cbcf;
+}
+
+.table-success,
+.table-success > th,
+.table-success > td {
+  background-color: #c3e6cb;
+}
+
+.table-hover .table-success:hover {
+  background-color: #b1dfbb;
+}
+
+.table-hover .table-success:hover > td,
+.table-hover .table-success:hover > th {
+  background-color: #b1dfbb;
+}
+
+.table-info,
+.table-info > th,
+.table-info > td {
+  background-color: #bee5eb;
+}
+
+.table-hover .table-info:hover {
+  background-color: #abdde5;
+}
+
+.table-hover .table-info:hover > td,
+.table-hover .table-info:hover > th {
+  background-color: #abdde5;
+}
+
+.table-warning,
+.table-warning > th,
+.table-warning > td {
+  background-color: #ffeeba;
+}
+
+.table-hover .table-warning:hover {
+  background-color: #ffe8a1;
+}
+
+.table-hover .table-warning:hover > td,
+.table-hover .table-warning:hover > th {
+  background-color: #ffe8a1;
+}
+
+.table-danger,
+.table-danger > th,
+.table-danger > td {
+  background-color: #f5c6cb;
+}
+
+.table-hover .table-danger:hover {
+  background-color: #f1b0b7;
+}
+
+.table-hover .table-danger:hover > td,
+.table-hover .table-danger:hover > th {
+  background-color: #f1b0b7;
+}
+
+.table-light,
+.table-light > th,
+.table-light > td {
+  background-color: #fdfdfe;
+}
+
+.table-hover .table-light:hover {
+  background-color: #ececf6;
+}
+
+.table-hover .table-light:hover > td,
+.table-hover .table-light:hover > th {
+  background-color: #ececf6;
+}
+
+.table-dark,
+.table-dark > th,
+.table-dark > td {
+  background-color: #c6c8ca;
+}
+
+.table-hover .table-dark:hover {
+  background-color: #b9bbbe;
+}
+
+.table-hover .table-dark:hover > td,
+.table-hover .table-dark:hover > th {
+  background-color: #b9bbbe;
+}
+
+.table-active,
+.table-active > th,
+.table-active > td {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-hover .table-active:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-hover .table-active:hover > td,
+.table-hover .table-active:hover > th {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table .thead-dark th {
+  color: #fff;
+  background-color: #212529;
+  border-color: #32383e;
+}
+
+.table .thead-light th {
+  color: #495057;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+header{
+  background-color:#35424a;
+  min-height:70px;
+  padding-top:30px;
+  color: #ffffff;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+header #branding{
+  float: left;
+}
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+.highlight, header .current a{
+   color: #e8491d;
+   font-weight: bold;
+}
+header a:hover{
+  color: #cccccc;
+  font-weight:bold;
+}
+
+body #showcase{
+  min-height:500px;
+  background:url('../img/2.png') no-repeat ;
+  text-align: center;
+  color:white;
+  margin-bottom: -20px;
+}
+body #showcase h1{
+  margin-top: 200px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+body #showcase p{
+   font-size: 20px;
+   line-height: 1;
+}
+
+aside#sidebar{
+  float: right;
+  width: 32%;
+  margin-top: 25px;
+  min-height: 50%;
+}
+aside#sidebar .quote input,aside#sidebar .quote textarea{
+  width: 92%;
+  padding: 5px;
+}
+article#main-col{
+  float:left;
+  width: 65%;
+}
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+  height: 25px;
+  border-top:3px solid #35424a;
+}
+
+ul#categories li{
+  list-style: armenian;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  height: 30px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background: #e6eeff;
+  transition: 0.3s;
+}
+.carry{
+  padding: 2px 16px;
+}
+.card_1{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background: #e6eeff;
+  transition: 0.3s;
+  padding: 20px;
+  margin-left: 300px;
+  margin-top: 20px;
+  margin-right: 500px;
+  margin-bottom: 20px;
+}
+
+/*media Queries*/
+@media(max-width:768px){
+  header #branding,header nav,header nav li,#searching h1,#searching form,#boxes .box,article#main-col,aside#sidebar{
+      float: none;
+      text-align: center;
+      width: 100%;
+  }
+  header{
+      padding-bottom: 20px;
+  }
+  #showcase h1{
+      margin-top: 40px;
+  }
+  #showcase{
+      background-position-x: 25px;
+      background-size: auto;
+  }
+  #searching button,.quote button{
+      width: 100%;
+      display: block;
+  }
+  #searching form input[type="email"],.quote input,.quote textarea{
+      width: 100%;
+      margin-bottom: 5px; 
+  }
+}
